@@ -5,9 +5,16 @@
   <title>Title</title>
   <link rel="stylesheet"
         href="css/shared.css">
+  <link rel="stylesheet"
+        href="css/style.css">
 </head>
 <body>
   <header class="main-header">
+    <div class="toggle-bar">
+      <div class="toggle-bar__item"></div>
+      <div class="toggle-bar__item"></div>
+      <div class="toggle-bar__item"></div>
+    </div>
     <nav class="main-nav">
       <ul class="main-nav__items">
         <li class="main-nav__item"><a href="#">Главная</a></li>
@@ -20,8 +27,6 @@
             <li class="main-hover-item"><a href="#">Нахлыст</a></li>
           </ul>
         </li>
-        <li class="main-nav__item"><a href="#">Виды рыб</a></li>
-        <li class="main-nav__item"><a href="#">Места</a></li>
         <li class="main-nav__item"><a href="#">Помощь</a>
           <ul class="main-hover">
             <li class="main-hover-item"><a href="#">Советы</a></li>
@@ -32,24 +37,39 @@
             <li class="main-hover-item"><a href="#">Что взять с собой на рыбалку</a></li>
           </ul>
         </li>
+        <li class="main-nav__item"><a href="#">Места</a></li>
+        <li class="main-nav__item"><a href="#">Виды рыб</a></li>
       </ul>
     </nav>
-    <div>
-      <a href="index.html" class="main-header__logo">
+    <div class="logo">
+      <a href="index.html"
+         class="main-header__logo">
         <img src="img/logo_black.png"
              alt="Главная">
       </a>
     </div>
   </header>
   <main>
-    <div class="wrapper"></div>
+    <div class="container">
+      <div class="main-intro__help">
+        <div class="half-page">
+          <div class="main-intro__info">
+            <h2>Мы поможем</h2>
+            <h5>Освоить основные навыки рыбалки</h5>
+            <a href="#">Показать</a>
+          </div>
+        </div>
+      </div>
+      <div class="main-intro__place">
+      </div>
+    </div>
   </main>
   <footer class="main-footer">
     <nav>
-      <ul class="main-footer__links">
-        <li class="main-footer__link">Александр Мельников</li>
-        <li class="main-footer__link">+375 (29) 881-43-48</li>
-        <li class="main-footer__link">sasha.mel.aa@gmail.com</li>
+      <ul class="main-footer__items">
+        <li class="main-footer__item">Александр Мельников</li>
+        <li class="main-footer__item">+375 (29) 881-43-48</li>
+        <li class="main-footer__item">sasha.mel.aa@gmail.com</li>
       </ul>
     </nav>
   </footer>
