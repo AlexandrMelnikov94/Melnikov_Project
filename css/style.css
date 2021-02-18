@@ -1,1 +1,65 @@
+@media (min-device-width: 0px) and (min-width: 0px) {
+    .main-intro__help, .main-intro__place {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .main-intro__help .main-intro__info,
+    .main-intro__place .main-intro__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        color: #e9e6e6;
+    }
+
+    .main-intro__help .main-intro__info {
+        background-image: url("../img/fishing-209112_1920.jpg");
+    }
+
+    .main-intro__place .main-intro__info {
+        background-image: url("../img/boy-909552_1920.jpg");
+    }
+
+    .main-intro__info a {
+        background-color: #6684AA;
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem 2rem;
+        border: 1px solid #6684AA;
+        text-transform: uppercase;
+    }
+
+    .main-intro__info a:hover {
+        background-color: white;
+        color: #6684AA;
+        transition: 0.2s;
+    }
+
+    .main-intro__help a {
+        background-color: #222121;
+        border: 1px solid #222121;
+    }
+
+    .main-intro__help a:hover {
+        color: #222121;
+    }
+
+    .main-intro__info h2 {
+        font-size: 4rem;
+        margin: 0;
+    }
+
+    .main-intro__info h5 {
+        font-size: 1.5rem;
+        margin: 0 0 1rem 0;
+    }
+
+    .main-intro__info a {
+        font-size: 1.5rem;
+    }
+}
 
