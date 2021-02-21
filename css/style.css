@@ -62,23 +62,41 @@
         font-size: 1.5rem;
     }
 
-    .main-fish__kind {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .main-fish__kind,
+    .main-fishing__kind {
         width: 90%;
-        border: 1px solid black;
-        border-radius: 10px;
         margin-top: 1rem;
         font-size: 2rem;
     }
 
-    .main-fish__kinds {
+    .main-fish__kind a,
+    .main-fishing__kind a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        color: black;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    .main-fishing__kind a {
+        justify-content: flex-start;
+    }
+
+    .main-fish__kind a:hover,
+    .main-fishing__kind a:hover {
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);;
+    }
+
+    .main-fish__kinds,
+    .main-fishing__kinds {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0;
+        margin: 0 0 3% 0;
     }
 
     .main-fish__kind img {
@@ -87,22 +105,51 @@
         margin: 1rem;
     }
 
-    .main-fish__kind span {
-        display: flex;
-        justify-content: center;
+    .main-fishing__kind img {
+        width: 50%;
+        height: 193px;
+        border-top-left-radius: 9px;
+        border-bottom-left-radius: 9px;
+    }
+    .main-fishing__kind p {
+        margin: 0;
+
+    }
+
+    .main-fishing__kind span{
+        margin-left: 10%;
+    }
+
+    .main-fish__title,
+    .main-fishing__title {
+        font-size: 2rem;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+
+    .show-kinds {
+        text-decoration: none;
+        color: black;
+        margin-left: 3%;
+    }
+
+    .show-kinds:hover {
+        text-decoration: underline;
     }
 }
 
 @media (min-device-width: 1000px) and (min-width: 1000px) {
 
-    .main-fish__kinds {
+    .main-fish__kinds,
+    .main-fishing__kinds {
         display: flex;
         flex-direction: row;
         justify-content: center;
         margin: 3% 0;
     }
 
-    .main-fish__kind{
+    .main-fish__kind,
+    .main-fishing__kind {
         margin: 0 1%;
         width: 30%;
         font-size: 1.5rem;

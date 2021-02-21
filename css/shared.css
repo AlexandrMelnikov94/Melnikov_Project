@@ -51,6 +51,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 0;
     }
 
     .main-footer__item {
@@ -91,6 +92,7 @@ body {
         color: black;
         font-weight: bold;
         text-transform: uppercase;
+        transition: 0.7s;
     }
 
     .main-nav__item a:hover {
