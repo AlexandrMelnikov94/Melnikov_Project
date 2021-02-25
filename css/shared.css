@@ -2,6 +2,18 @@
     box-sizing: border-box;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.clearfix-left::after {
+    content: "";
+    clear: left;
+    display: block;
+}
+
 body {
     margin: 0 auto;
     font-family: Roboto, sans-serif;
@@ -44,6 +56,7 @@ body {
 
     .main-footer {
         background: #596A80;
+        font-size: 1.5rem;
     }
 
     .main-footer__items {
@@ -117,6 +130,10 @@ body {
     .main-nav ul li:hover ul {
         display: block;
         position: absolute;
+    }
+
+    .main-footer {
+        font-size: 1rem;
     }
 
     .main-footer__items {
