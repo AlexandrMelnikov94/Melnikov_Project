@@ -56,6 +56,15 @@ main {
         font-weight: bold;
         text-align: center;
     }
+
+    .desktop-map {
+        display: none;
+    }
+
+    iframe {
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 @media (min-device-width: 1000px) and (min-width: 1000px) {
@@ -67,4 +76,13 @@ main {
     .shared-fish__title {
         text-align: left;
     }
+
+    .desktop-map {
+        display: block;
+    }
+
+    .mobile-map {
+        display: none;
+    }
 }
+
