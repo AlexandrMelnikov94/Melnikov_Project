@@ -1,0 +1,70 @@
+main {
+    text-align: justify;
+}
+
+@media (min-device-width: 0px) and (min-width: 0px) {
+
+    .intro img {
+        object-fit: cover;
+        text-indent: 0;
+        width: 100%;
+        height: 50vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container h3 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .container p {
+        font-size: 1.5rem;
+    }
+
+    .container p, .container h3 {
+        margin: 1% 5%;
+    }
+
+
+    .container ul, .container li {
+        font-size: 1.5rem;
+        margin: 0 5%;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    .container li {
+        margin: 0 2%;
+    }
+
+    .container ul li:before {
+        content: "—";
+        position: relative;
+        left: -5px;
+    }
+
+    .container li {
+        margin-right: 0;
+    }
+
+    .show-kinds {
+        display: none;
+    }
+
+    .shared-fish__title {
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+@media (min-device-width: 1000px) and (min-width: 1000px) {
+
+    .container h3 {;
+        text-align: left;
+    }
+
+    .shared-fish__title {
+        text-align: left;
+    }
+}
