@@ -14,13 +14,13 @@
     }
 
     .fishing-kind a {
-        text-decoration: none;
         float: left;
-        color: black;
-        border: 1px solid black;
-        border-radius: 10px;
         width: 90%;
         margin: 2%;
+        border: 1px solid black;
+        border-radius: 10px;
+        text-decoration: none;
+        color: black;
     }
 
     .fishing-kind a:hover {
@@ -34,10 +34,10 @@
         border-top-right-radius: 10px;
     }
 
-    .img-wrapper {
-        display: flex;
-        justify-content: center;
-    }
+    /*.fish-kind__img-wrapper {*/
+    /*    display: flex;*/
+    /*    justify-content: center;*/
+    /*}*/
 }
 
 @media (min-device-width: 1000px) and (min-width: 1000px) {
