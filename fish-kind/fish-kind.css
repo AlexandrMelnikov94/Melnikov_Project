@@ -6,17 +6,17 @@
 
     table {
         display: none;
-        width: 30%;
-        border-collapse: collapse;
         float: right;
+        width: 30%;
         margin: 20px 40px;
+        border-collapse: collapse;
         font-size: 3rem;
     }
 
     table:last-of-type {
         display: table;
-        width: 90%;
         float: none;
+        width: 90%;
         margin: 1rem auto;
 
     }
@@ -35,16 +35,16 @@
     }
 
     main ul {
+        margin-right: 5%;
         list-style-type: none;
         font-size: 1.5rem;
         text-indent: 1.5rem;
-        margin-right: 5%;
     }
 
     main ul li:first-of-type {
+        padding-bottom: 1rem;
         font-size: 3rem;
         font-weight: bold;
-        padding-bottom: 1rem;
     }
 }
 
