@@ -1,4 +1,4 @@
-@media (min-device-width: 0px) and (min-width: 0px) {
+/*@media (min-device-width: 0px) and (min-width: 0px) {*/
 
     .container {
         text-align: justify;
@@ -46,7 +46,7 @@
         font-size: 3rem;
         font-weight: bold;
     }
-}
+/*}*/
 
 @media (min-device-width: 850px) and (min-width: 850px) {
 

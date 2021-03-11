@@ -2,7 +2,7 @@ main {
     text-align: justify;
 }
 
-@media (min-device-width: 0px) and (min-width: 0px) {
+/*@media (min-device-width: 0px) and (min-width: 0px) {*/
 
     .intro img {
         width: 100%;
@@ -71,7 +71,7 @@ main {
         width: 60%;
         margin: 0 auto;
     }
-}
+/*}*/
 
 @media (min-device-width: 1000px) and (min-width: 1000px) {
 
