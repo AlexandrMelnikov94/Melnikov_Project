@@ -13,15 +13,19 @@
 body {
   max-width: 1920px;
   margin: 0 auto;
-  border: 1px solid black;
   font-family: Roboto, sans-serif;
+}
+
+.container {
+  margin-top: 7.2rem;
+  border-top: 1px solid white;
 }
 
 @media (min-device-width: 0px) and (min-width: 0px) {
 
-  /*body.lock {*/
-  /*  overflow: hidden;*/
-  /*}*/
+  body.lock {
+    overflow: hidden;
+  }
 
   .backdrop {
     position: fixed;
@@ -38,6 +42,7 @@ body {
     margin-top: 115px;
     top: -100%;
     left: 0;
+    overflow: auto;
     border: 1px solid black;
     background: #E9E9E9;
     width: 100%;
@@ -89,6 +94,7 @@ body {
     padding: 0;
     border-bottom: 1px solid black;
     background: #E9E9E9;
+    top: 0;
   }
 
   .main-nav {
@@ -197,6 +203,7 @@ body {
   }
 
   .main-header {
+    max-width: 1920px;
     flex-direction: row-reverse;
     justify-content: space-between;
   }
