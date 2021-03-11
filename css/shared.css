@@ -21,7 +21,7 @@ body {
   border-top: 1px solid white;
 }
 
-@media (min-device-width: 0px) and (min-width: 0px) {
+/*@media (min-device-width: 0px) and (min-width: 0px) {*/
 
   body.lock {
     overflow: hidden;
@@ -190,7 +190,7 @@ body {
   .open {
     display: block;
   }
-}
+/*}*/
 
 @media (min-device-width: 650px) and (min-width: 650px) {
 

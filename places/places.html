@@ -9,87 +9,93 @@
         href="../fishing-kind/fishing-kinds.css">
 </head>
 <body>
+  <div class="backdrop"></div>
   <header class="main-header">
-    <div class="toggle-bar">
-      <div class="toggle-bar__item"></div>
-      <div class="toggle-bar__item"></div>
-      <div class="toggle-bar__item"></div>
+    <div class="main-burger">
+      <span></span>
     </div>
     <nav class="main-nav">
       <ul class="main-nav__items">
         <li class="main-nav__item"><a href="../index.html">Главная</a></li>
         <li class="main-nav__item"><a href="../fishing-kind/fishing-kinds.html">Виды рыбалки</a>
           <ul class="main-hover">
-            <li class="main-hover__item"><a href="#">Поплавок</a></li>
-            <li class="main-hover__item"><a href="#">Донка</a></li>
-            <li class="main-hover__item"><a href="#">Фидер</a></li>
-            <li class="main-hover__item"><a href="#">Спининг</a></li>
-            <li class="main-hover__item"><a href="#">Нахлыст</a></li>
+            <li class="main-hover__item"><a href="../fishing-kind/float.html">Поплавок</a></li>
+            <li class="main-hover__item"><a href="../fishing-kind/feeder.html">Фидер</a></li>
+            <li class="main-hover__item"><a href="../fishing-kind/spinning.html">Спиннинг</a></li>
+            <li class="main-hover__item"><a href="../fishing-kind/flyfishing.html">Нахлыст</a></li>
           </ul>
         </li>
-        <li class="main-nav__item"><a href="#">Помощь</a>
+        <li class="main-nav__item"><a href="../help/help.html">Помощь</a>
           <ul class="main-hover">
-            <li class="main-hover__item"><a href="#">Советы</a></li>
-            <li class="main-hover__item"><a href="#">Выбор приманки</a></li>
-            <li class="main-hover__item"><a href="#">Как завязать рыболовный узел</a></li>
-            <li class="main-hover__item"><a href="#">Как правильно выбрать место</a></li>
-            <li class="main-hover__item"><a href="#">Как выбрать снаряжение</a></li>
-            <li class="main-hover__item"><a href="#">Что взять с собой на рыбалку</a></li>
+            <li class="main-hover__item"><a href="../help/advice.html">Советы</a></li>
+            <li class="main-hover__item"><a href="../help/bait.html">Выбор приманки</a></li>
+            <li class="main-hover__item"><a href="../help/knot.html">Как завязать рыболовный узел</a></li>
+            <li class="main-hover__item"><a href="../help/seat-selection.html">Как правильно выбрать место</a></li>
+            <li class="main-hover__item"><a href="../help/equipment.html">Как выбрать снаряжение</a></li>
+            <li class="main-hover__item"><a href="../help/additionally.html">Что взять с собой на рыбалку</a></li>
           </ul>
         </li>
-        <li class="main-nav__item"><a href="#">Места</a></li>
+        <li class="main-nav__item"><a href="../places/places.html">Места</a></li>
         <li class="main-nav__item"><a href="../fish-kind/fish-kinds.html">Виды рыб</a></li>
       </ul>
     </nav>
-    <div class="logo">
-      <a href="../index.html"
-         class="main-header__logo">
-        <img src="../img/logo_black.png"
-             alt="Главная">
-      </a>
-    </div>
+    <a class="main-header__logo" href="../index.html">
+      <img src="../img/logo_black.png"
+           alt="Главная">
+    </a>
   </header>
+  <nav class="mobile-nav">
+    <ul class="mobile-nav__items">
+      <li class="mobile-nav__item"><a href="../index.html">Главная</a></li>
+      <li class="mobile-nav__item"><a href="../fishing-kind/fishing-kinds.html">Виды рыбалки</a></li>
+      <li class="mobile-nav__item"><a href="../help/help.html">Помощь</a></li>
+      <li class="mobile-nav__item"><a href="../places/places.html">Места</a></li>
+      <li class="mobile-nav__item"><a href="../fish-kind/fish-kinds.html">Виды рыб</a></li>
+    </ul>
+  </nav>
   <main>
-    <h1>Места</h1>
-    <div class="places">
-      <div class="place">
-        <a href="minsksea.html">
-          <img src="../img/Минское%20море.jpg"
-               alt="Минское море">
-          <p>Минское море</p>
-        </a>
+    <div class="container">
+      <h1>Места</h1>
+      <div class="places">
+        <div class="place">
+          <a href="minsksea.html">
+            <img src="../img/Минское%20море.jpg"
+                 alt="Минское море">
+            <p>Минское море</p>
+          </a>
+        </div>
+        <div class="place">
+          <a href="chigirinskoe.html">
+            <img src="../img/Чигиринское%20водохранилище.jpg"
+                 alt="Чигиринское водохранилище">
+            <p>Чигиринское водохранилище</p>
+          </a>
+        </div>
+        <div class="clearfix"></div>
+        <div class="place">
+          <a href="braslavlakes.html">
+            <img src="../img/Браславские%20озера.jpg"
+                 alt="Браславские озера">
+            <p>Браславские озера</p>
+          </a>
+        </div>
+        <div class="place">
+          <a href="vileika.html">
+            <img src="../img/Вилейское%20водохранилище.jpg"
+                 alt="Вилейское водохранилище">
+            <p>Вилейское водохранилище</p>
+          </a>
+        </div>
+        <div class="clearfix"></div>
+        <div class="place">
+          <a href="neman.html">
+            <img src="../img/Неман.jpg"
+                 alt="Неман">
+            <p>Неман</p>
+          </a>
+        </div>
+        <div class="clearfix"></div>
       </div>
-      <div class="place">
-        <a href="chigirinskoe.html">
-          <img src="../img/Чигиринское%20водохранилище.jpg"
-               alt="Чигиринское водохранилище">
-          <p>Чигиринское водохранилище</p>
-        </a>
-      </div>
-      <div class="clearfix"></div>
-      <div class="place">
-        <a href="braslavlakes.html">
-          <img src="../img/Браславские%20озера.jpg"
-               alt="Браславские озера">
-          <p>Браславские озера</p>
-        </a>
-      </div>
-      <div class="place">
-        <a href="vileika.html">
-          <img src="../img/Вилейское%20водохранилище.jpg"
-               alt="Вилейское водохранилище">
-          <p>Вилейское водохранилище</p>
-        </a>
-      </div>
-      <div class="clearfix"></div>
-      <div class="place">
-        <a href="neman.html">
-          <img src="../img/Неман.jpg"
-               alt="Неман">
-          <p>Неман</p>
-        </a>
-      </div>
-      <div class="clearfix"></div>
     </div>
   </main>
   <footer class="main-footer">
@@ -101,5 +107,6 @@
       </ul>
     </nav>
   </footer>
+  <script src="../shared.js"></script>
 </body>
 </html>

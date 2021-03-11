@@ -1,4 +1,4 @@
-@media (min-device-width: 0px) and (min-width: 0px) {
+/*@media (min-device-width: 0px) and (min-width: 0px) {*/
 
     h1 {
         margin-left: 5%;
@@ -38,7 +38,7 @@
         display: flex;
         justify-content: center;
     }
-}
+/*}*/
 
 @media (min-device-width: 1000px) and (min-width: 1000px) {
 

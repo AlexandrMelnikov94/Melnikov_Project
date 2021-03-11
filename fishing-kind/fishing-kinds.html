@@ -9,88 +9,94 @@
         href="fishing-kinds.css">
 </head>
 <body>
+  <div class="backdrop"></div>
   <header class="main-header">
-    <div class="toggle-bar">
-      <div class="toggle-bar__item"></div>
-      <div class="toggle-bar__item"></div>
-      <div class="toggle-bar__item"></div>
+    <div class="main-burger">
+      <span></span>
     </div>
     <nav class="main-nav">
       <ul class="main-nav__items">
         <li class="main-nav__item"><a href="../index.html">Главная</a></li>
-        <li class="main-nav__item"><a href="fishing-kinds.html">Виды рыбалки</a>
+        <li class="main-nav__item"><a href="../fishing-kind/fishing-kinds.html">Виды рыбалки</a>
           <ul class="main-hover">
-            <li class="main-hover__item"><a href="#">Поплавок</a></li>
-            <li class="main-hover__item"><a href="#">Донка</a></li>
-            <li class="main-hover__item"><a href="#">Фидер</a></li>
-            <li class="main-hover__item"><a href="#">Спининг</a></li>
-            <li class="main-hover__item"><a href="#">Нахлыст</a></li>
+            <li class="main-hover__item"><a href="../fishing-kind/float.html">Поплавок</a></li>
+            <li class="main-hover__item"><a href="../fishing-kind/feeder.html">Фидер</a></li>
+            <li class="main-hover__item"><a href="../fishing-kind/spinning.html">Спиннинг</a></li>
+            <li class="main-hover__item"><a href="../fishing-kind/flyfishing.html">Нахлыст</a></li>
           </ul>
         </li>
-        <li class="main-nav__item"><a href="#">Помощь</a>
+        <li class="main-nav__item"><a href="../help/help.html">Помощь</a>
           <ul class="main-hover">
-            <li class="main-hover__item"><a href="#">Советы</a></li>
-            <li class="main-hover__item"><a href="#">Выбор приманки</a></li>
-            <li class="main-hover__item"><a href="#">Как завязать рыболовный узел</a></li>
-            <li class="main-hover__item"><a href="#">Как правильно выбрать место</a></li>
-            <li class="main-hover__item"><a href="#">Как выбрать снаряжение</a></li>
-            <li class="main-hover__item"><a href="#">Что взять с собой на рыбалку</a></li>
+            <li class="main-hover__item"><a href="../help/advice.html">Советы</a></li>
+            <li class="main-hover__item"><a href="../help/bait.html">Выбор приманки</a></li>
+            <li class="main-hover__item"><a href="../help/knot.html">Как завязать рыболовный узел</a></li>
+            <li class="main-hover__item"><a href="../help/seat-selection.html">Как правильно выбрать место</a></li>
+            <li class="main-hover__item"><a href="../help/equipment.html">Как выбрать снаряжение</a></li>
+            <li class="main-hover__item"><a href="../help/additionally.html">Что взять с собой на рыбалку</a></li>
           </ul>
         </li>
-        <li class="main-nav__item"><a href="#">Места</a></li>
+        <li class="main-nav__item"><a href="../places/places.html">Места</a></li>
         <li class="main-nav__item"><a href="../fish-kind/fish-kinds.html">Виды рыб</a></li>
       </ul>
     </nav>
-    <div class="logo">
-      <a href="../index.html"
-         class="main-header__logo">
-        <img src="../img/logo_black.png"
-             alt="Главная">
-      </a>
-    </div>
+    <a class="main-header__logo" href="../index.html">
+      <img src="../img/logo_black.png"
+           alt="Главная">
+    </a>
   </header>
+  <nav class="mobile-nav">
+    <ul class="mobile-nav__items">
+      <li class="mobile-nav__item"><a href="../index.html">Главная</a></li>
+      <li class="mobile-nav__item"><a href="../fishing-kind/fishing-kinds.html">Виды рыбалки</a></li>
+      <li class="mobile-nav__item"><a href="../help/help.html">Помощь</a></li>
+      <li class="mobile-nav__item"><a href="../places/places.html">Места</a></li>
+      <li class="mobile-nav__item"><a href="../fish-kind/fish-kinds.html">Виды рыб</a></li>
+    </ul>
+  </nav>
   <main>
-    <h1>Виды рыбалки</h1>
-    <article class="fishing-kinds">
-      <section class="fishing-kind">
-        <a href="float.html">
-<!--          <div class="fishing-kinds__img-wrapper">-->
+    <div class="container">
+      <h1>Виды рыбалки</h1>
+      <article class="fishing-kinds">
+        <section class="fishing-kind">
+          <a href="float.html">
+            <!--          <div class="fishing-kinds__img-wrapper">-->
             <img src="../img/поплавок_1200.jpg"
                  alt="поплавок">
-<!--          </div>-->
-          <p>Поплавок</p>
-        </a>
-      </section>
-      <section class="fishing-kind">
-        <a href="feeder.html">
-<!--          <div class="fishing-kinds__img-wrapper">-->
+            <!--          </div>-->
+            <p>Поплавок</p>
+          </a>
+        </section>
+        <section class="fishing-kind">
+          <a href="feeder.html">
+            <!--          <div class="fishing-kinds__img-wrapper">-->
             <img src="../img/фидер_1200.jpg"
                  alt="фидер">
-<!--          </div>-->
-          <p>Фидер</p>
-        </a>
-      </section>
-      <div class="clearfix"></div>
-      <div class="fishing-kind">
-        <a href="spinning.html">
-<!--          <div class="img-wrapper">-->
+            <!--          </div>-->
+            <p>Фидер</p>
+          </a>
+        </section>
+        <div class="clearfix"></div>
+        <div class="fishing-kind">
+          <a href="spinning.html">
+            <!--          <div class="img-wrapper">-->
             <img src="../img/fishing-spining.jpg"
                  alt="спиннинг">
-<!--          </div>-->
-          <p>Спиннинг</p>
-        </a>
-      </div>
-      <section class="fishing-kind">
-        <a href="flyfishing.html">
-<!--          <div class="img-wrapper">-->
+            <!--          </div>-->
+            <p>Спиннинг</p>
+          </a>
+        </div>
+        <section class="fishing-kind">
+          <a href="flyfishing.html">
+            <!--          <div class="img-wrapper">-->
             <img src="../img/нахлыст-3.jpg"
                  alt="нахлыст">
-<!--          </div>-->
-          <p>Нахлыст</p>
-        </a>
-      </section>
-      <div class="clearfix"></div>
-    </article>
+            <!--          </div>-->
+            <p>Нахлыст</p>
+          </a>
+        </section>
+        <div class="clearfix"></div>
+      </article>
+    </div>
   </main>
   <footer class="main-footer">
     <nav>
@@ -101,5 +107,6 @@
       </ul>
     </nav>
   </footer>
+  <script src="../shared.js"></script>
 </body>
 </html>

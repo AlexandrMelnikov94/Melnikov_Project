@@ -1,4 +1,4 @@
-@media (min-device-width: 0px) and (min-width: 0px) {
+/*@media (min-device-width: 0px) and (min-width: 0px) {*/
     .shared-fish__kind {
         width: 90%;
         margin-top: 1rem;
@@ -49,7 +49,7 @@
     .main__show-kinds:hover {
         text-decoration: underline;
     }
-}
+/*}*/
 
 @media (min-device-width: 1000px) and (min-width: 1000px) {
 
