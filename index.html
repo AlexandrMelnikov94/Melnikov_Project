@@ -9,11 +9,10 @@
         href="css/style.css">
 </head>
 <body>
+  <div class="backdrop"></div>
   <header class="main-header">
-    <div class="toggle-bar">
-      <div class="toggle-bar__item"></div>
-      <div class="toggle-bar__item"></div>
-      <div class="toggle-bar__item"></div>
+    <div class="main-burger">
+      <span></span>
     </div>
     <nav class="main-nav">
       <ul class="main-nav__items">
@@ -45,7 +44,17 @@
            alt="Главная">
     </a>
   </header>
+  <nav class="mobile-nav">
+    <ul class="mobile-nav__items">
+      <li class="mobile-nav__item"><a href="index.html">Главная</a></li>
+      <li class="mobile-nav__item"><a href="fishing-kind/fishing-kinds.html">Виды рыбалки</a></li>
+      <li class="mobile-nav__item"><a href="help/help.html">Помощь</a></li>
+      <li class="mobile-nav__item"><a href="places/places.html">Места</a></li>
+      <li class="mobile-nav__item"><a href="fish-kind/fish-kinds.html">Виды рыб</a></li>
+    </ul>
+  </nav>
   <main>
+    <div class="container">
     <article class="main-intro__help">
       <section class="main-intro__info">
         <h2>Мы поможем</h2>
@@ -116,6 +125,7 @@
       <a class="main__show-kinds"
          href="fishing-kind/fishing-kinds.html">Посмотреть все виды рыбалки ></a>
     </article>
+    </div>
   </main>
   <footer class="main-footer">
     <nav>
@@ -126,5 +136,6 @@
       </ul>
     </nav>
   </footer>
+  <script src="shared.js"></script>
 </body>
 </html>
