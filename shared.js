@@ -23,3 +23,19 @@ toggleButton.addEventListener("click", function() {
   toggleButton.classList.add("open");
   body.classList.add("lock");
 });
+
+var smoothJumpUP = function () {
+  if (document.body.scrollTop > 0 || document.documentElement.scrollTop) {
+    window.scrollBy(0,-50);
+    setTimeout(smoothJumpUP, 10);
+  }
+}
+
+window.onscroll = function () {
+  var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+  if (scrolled > 100) {
+    document.getElementById('arrow-up').style.display = 'flex';
+  } else {
+    document.getElementById('arrow-up').style.display = 'none';
+  }
+}
