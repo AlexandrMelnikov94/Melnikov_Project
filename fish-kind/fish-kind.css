@@ -1,65 +1,80 @@
-/*@media (min-device-width: 0px) and (min-width: 0px) {*/
+  .container {
+    text-align: justify;
+  }
 
-    .container {
-        text-align: justify;
-    }
+  .fish-card {
+    float: right;
+    display: none;
+    flex-direction: column;
+    width: 30%;
+    margin: 3rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);;
+    font-size: 1.5rem;
+  }
 
-    table {
-        display: none;
-        float: right;
-        width: 30%;
-        margin: 20px 40px;
-        border-collapse: collapse;
-        font-size: 3rem;
-    }
+  .fish-card:last-of-type {
+    float: none;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+  }
 
-    table:last-of-type {
-        display: table;
-        float: none;
-        width: 90%;
-        margin: 1rem auto;
+  .fish-card img {
+    display: inline-block;
+    width: 80%;
+    margin: 5% auto;
+  }
 
-    }
+  .fish-card table {
+    width: 96%;
+    margin: 5% auto;
+    border-collapse: collapse;
+  }
 
-    table tr td {
-        border: 1px solid black;
-    }
+  .fish-card tr td {
+    padding: 0.5rem;
+    text-align: left;
+  }
 
-    table tr:first-of-type td {
-        text-align: center;
-    }
+  .fish-card tr {
+    border-bottom: 1px solid black;
+  }
 
-    table img {
-        height: 200px;
-        width: 400px;
-    }
+  .fish-card td:first-of-type{
+    width: 40%;
+    font-weight: bold;
+  }
 
-    main ul {
-        margin-right: 5%;
-        list-style-type: none;
-        font-size: 1.5rem;
-        text-indent: 1.5rem;
-    }
+  .fish-card tr:last-of-type {
+    border-bottom: none;
+  }
 
-    main ul li:first-of-type {
-        padding-bottom: 1rem;
-        font-size: 3rem;
-        font-weight: bold;
-    }
-/*}*/
+  main ul {
+    margin-right: 5%;
+    list-style-type: none;
+    font-size: 1.5rem;
+    text-indent: 1.5rem;
+  }
+
+  main ul li:first-of-type {
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+  }
 
 @media (min-device-width: 850px) and (min-width: 850px) {
 
-    table {
-        display: table;
-        font-size: 2rem;
-    }
+  .fish-card:first-of-type {
+   display: flex;
+  }
 
-    table:last-of-type {
-        display: none;
-    }
+  .fish-card:last-of-type {
+    display: none;
+  }
 
-    main ul {
-        margin-right: 2%;
-    }
+  main ul {
+    margin-right: 2%;
+  }
 }
