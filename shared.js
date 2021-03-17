@@ -34,8 +34,8 @@ var smoothJumpUP = function () {
 window.onscroll = function () {
   var scrolled = window.pageYOffset || document.documentElement.scrollTop;
   if (scrolled > 100) {
-    document.getElementById('arrow-up').style.display = 'flex';
+    document.getElementById('to-top').style.display = 'flex';
   } else {
-    document.getElementById('arrow-up').style.display = 'none';
+    document.getElementById('to-top').style.display = 'none';
   }
 }

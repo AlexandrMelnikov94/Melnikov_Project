@@ -193,7 +193,7 @@ body {
     display: block;
   }
 
-  .arrow-up {
+  .to-top {
     position: fixed;
     bottom: 5%;
     right: 3%;
@@ -209,12 +209,12 @@ body {
     transition: .5s;
   }
 
-  .arrow-up:hover {
+  .to-top:hover {
     opacity: 1;
     background-position: 100% 0;
   }
 
-  .arrow-up img {
+  .to-top img {
     width: 2rem;
     height: 2rem;
   }
