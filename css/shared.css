@@ -89,6 +89,7 @@ body {
     position: fixed;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     z-index: 1;
     width: 100%;
     padding: 0;
@@ -112,6 +113,7 @@ body {
     z-index: 10;
     width: 3.125rem;
     height: 2rem;
+    margin-left: 1rem;
   }
 
   .main-burger span {
@@ -205,7 +207,6 @@ body {
   .main-header {
     max-width: 1920px;
     flex-direction: row-reverse;
-    justify-content: space-between;
   }
 
   .main-nav {
