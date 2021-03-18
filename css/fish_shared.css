@@ -1,4 +1,3 @@
-/*@media (min-device-width: 0px) and (min-width: 0px) {*/
     .shared-fish__kind {
         width: 90%;
         margin-top: 1rem;
@@ -25,7 +24,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0 0 3% 0;
+        margin: 0;
     }
 
     .shared-fish__kind img {
@@ -49,7 +48,6 @@
     .main__show-kinds:hover {
         text-decoration: underline;
     }
-/*}*/
 
 @media (min-device-width: 1000px) and (min-width: 1000px) {
 
