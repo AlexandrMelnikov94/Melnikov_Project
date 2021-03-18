@@ -220,7 +220,7 @@ body {
     width: 2rem;
     height: 2rem;
   }
-@media (min-device-width: 750px) and (min-width: 750px) {
+@media (min-device-width: 650px) and (min-width: 650px) {
 
   .main-burger {
     display: none;
