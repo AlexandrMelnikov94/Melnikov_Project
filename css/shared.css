@@ -249,7 +249,7 @@ body.lock {
   color: #777;
   font-weight: bold;
   float: right;
-  margin-left: 5px;
+  margin-left: 0.5rem;
 }
 
 .active:after {
