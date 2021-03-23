@@ -6,7 +6,7 @@
     float: right;
     display: none;
     flex-direction: column;
-    width: 30%;
+    width: 40%;
     margin: 3rem;
     border: 1px solid black;
     border-radius: 5px;
@@ -62,6 +62,15 @@
     padding-bottom: 1rem;
     font-size: 3rem;
     font-weight: bold;
+  }
+
+  .fish-card__place {
+    text-decoration: none;
+    color: black;
+  }
+
+  .fish-card__place:hover {
+    text-decoration: underline;
   }
 
 @media (min-device-width: 850px) and (min-width: 850px) {
