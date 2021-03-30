@@ -70,6 +70,10 @@ iframe {
     margin: 0 auto;
 }
 
+.breadcrumbs .breadcrumbs__step {
+    margin: 0;
+}
+
 @media (min-device-width: 1000px) and (min-width: 1000px) {
 
     .container h3 {;
