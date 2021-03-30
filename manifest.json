@@ -1,0 +1,15 @@
+{
+  "name": "Рыбалка в Беларуси",
+  "short_name": "BelFish",
+  "lang": "ru-RU",
+  "start_url": "https://alexandrmelnikov94.github.io/",
+  "display": "standalone",
+  "theme_color": "#6684AA",
+  "icons": [
+    {
+      "src": "img/Logo.png",
+      "sizes": "192x192",
+      "type": "png"
+    }
+  ]
+}
