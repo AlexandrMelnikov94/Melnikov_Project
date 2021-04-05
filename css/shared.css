@@ -260,6 +260,12 @@ body.lock {
   content: "\2212";
 }
 
+.accordion--wrapper {
+  display: block;
+  margin: 0 auto;
+  width: 97%;
+}
+
 .panel {
   max-height: 0;
   overflow: hidden;
